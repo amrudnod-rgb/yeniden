@@ -4,66 +4,55 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Bizim Hikayemiz</title>
+  <title>Bizim Anılarımız</title>
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #ffccd5, #ffe6e9);
+      background: linear-gradient(135deg, #ffe3e3, #ffc9c9);
       color: #333;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      min-height: 100vh;
       text-align: center;
       padding: 20px;
     }
     h1 {
-      font-size: 2.5rem;
       color: #c92a2a;
+      margin-bottom: 30px;
     }
-    .message {
-      max-width: 600px;
-      background: #fff;
-      border-radius: 20px;
-      padding: 20px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.1);
-      margin: 20px 0;
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 1000px;
     }
-    .btn {
-      padding: 12px 24px;
-      border: none;
-      border-radius: 30px;
-      background-color: #fa5252;
-      color: white;
-      font-size: 1rem;
-      cursor: pointer;
-      transition: 0.3s ease;
-    }
-    .btn:hover {
-      background-color: #e03131;
-    }
-    img {
-      max-width: 250px;
+    .gallery img {
+      max-width: 300px;
       border-radius: 15px;
-      margin-bottom: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
     }
-    audio {
-      margin-top: 20px;
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 1rem;
+      color: #555;
     }
   </style>
 </head>
 <body>
-  <h1>Sana Söylemek İstediklerim Var...</h1>
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2NyNGdsbDUxeTB6eTcwMDhxYmN3ZTJ5amJnbHA1eXh6Ym96bm93cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Yle9Yz9izeVRyiwavn/giphy.gif" alt="Romantik GIF" />
-  <div class="message">
-    <p>Kırıldın, seni kırdım.. Kırıldım, beni kırdın.. Ama şunu bilmeni istiyorum:<br><strong>Seni gerçekten çok seviyorum İlkay.</strong></p>
-    <p>İçindeki küçük insana zarar verdiğim için özür dilerim. Beni ileriye taşımak isteyen bir ablam bir sen varsın.</p>
+  <h1>Birlikte Güzel Anılar Biriktirdik 💞</h1>
+  <div class="gallery">
+    <img src="https://media.discordapp.net/attachments/1333884152705056818/1381656077447336016/image.png?ex=684af1fe&is=6849a07e&hm=a0ee498fdbcfe1cd1b12dc64584eaea6c386a95186b609ca55fa0d1a6e89707a&=&format=webp&quality=lossless&width=1420&height=674" alt="Anı 1"/>
+    <img src="https://media.discordapp.net/attachments/1329407115802181652/1337199411104841920/image.png?ex=684ab63f&is=684964bf&hm=fb4d0946e4bfc9f946af1b762a1f8d74d5b7873aa9f435468354f3c5d5db4009&=&format=webp&quality=lossless&width=1726&height=825" alt="Anı 2"/>
+    <img src="https://media.discordapp.net/attachments/1329407115802181652/1336154068057460816/ImEzuyk.png?ex=684add32&is=68498bb2&hm=a60bd62bf2b494a0c742e4546713ae79c614e91d43ef00fe03838d26c21bebfe&=&format=webp&quality=lossless&width=1552&height=873" alt="Anı 3"/>
+    <img src="https://media.discordapp.net/attachments/1329407115802181652/1337199412463800370/image.png?ex=684ab63f&is=684964bf&hm=e616b314f6263a1ed29eec5a83fe44b683a3010eb0a8df806b6c62384e870c69&=&format=webp&quality=lossless&width=1725&height=804" alt="Anı 4"/>
+    <img src="https://media.discordapp.net/attachments/1329407115802181652/1336775645010858094/image.png?ex=684b25d5&is=6849d455&hm=d223af7643ad6ad2aaadc859b6c294dd13e235c2363e420c388725d8be9133de&=&format=webp&quality=lossless&width=1491&height=811" alt="Anı 5"/>
   </div>
-  <button class="btn" onclick="alert('Özür dilerim, bana iyi gelen tek şey sensin.')">💖 Yeniden?</button>
-  <audio controls>
-    <source src="muzik.mp3" type="audio/mpeg">
-  </audio>
+  <footer>Bu anıları tekrar yaşamak istiyorum... 💖</footer>
 </body>
 </html>
