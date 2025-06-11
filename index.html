@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bizim Hikayemiz</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #ffccd5, #ffe6e9);
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #c92a2a;
+    }
+    .message {
+      max-width: 600px;
+      background: #fff;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      margin: 20px 0;
+    }
+    .btn {
+      padding: 12px 24px;
+      border: none;
+      border-radius: 30px;
+      background-color: #fa5252;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #e03131;
+    }
+    img {
+      max-width: 250px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+    }
+    audio {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sana Söylemek İstediklerim Var...</h1>
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2NyNGdsbDUxeTB6eTcwMDhxYmN3ZTJ5amJnbHA1eXh6Ym96bm93cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Yle9Yz9izeVRyiwavn/giphy.gif" alt="Romantik GIF" />
+  <div class="message">
+    <p>Kırıldın, seni kırdım.. Kırıldım, beni kırdın.. Ama şunu bilmeni istiyorum:<br><strong>Seni gerçekten çok seviyorum İlkay.</strong></p>
+    <p>İçindeki küçük insana zarar verdiğim için özür dilerim. Beni ileriye taşımak isteyen bir ablam bir sen varsın.</p>
+  </div>
+  <button class="btn" onclick="alert('Özür dilerim, bana iyi gelen tek şey sensin.')">💖 Yeniden?</button>
+  <audio controls>
+    <source src="muzik.mp3" type="audio/mpeg">
+  </audio>
+</body>
+</html>
